@@ -27,12 +27,16 @@ public class AppTest
     {
         return new TestSuite( AppTest.class );
     }
-
+    
+    public void testcapitalizeName(){
+    	assert("Austin Pennyfeather".equals(Main.capitalizeName("austin Pennyfeather")));
+    }
+    
     /**
      * Rigourous Test :-)
      */
-    public void testApp()
-    {
-        assertTrue( true );
-    }
+//    public void testApp()
+//    {
+//        assertTrue( true );
+//    }
 }
